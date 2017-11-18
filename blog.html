@@ -70,8 +70,6 @@
 
         </header>
 
-
-
         <section class="feature-image feature-image-default-alt" data-type="background" data-speed="2">
             <h1 class="page-title">Blog</h1>
         </section>
@@ -83,23 +81,24 @@
                     <article class="post">
                         <header>
                             <h3>
-                                <a href="port.html">Blog title here</a>
+                                <a href="post.html">Blog title here</a>
                             </h3>
-                            <div class="port-details">
-                                <span class="glyphicon glyphicon-user"></span>Brad Hussy
-                                <span class="glyphicon glyphicon-time"></span>
+                            <div class="post-details">
+                                <i class="fa fa-user"></i> Brad Hussy
+                                <i class="fa fa-clock-o"></i>
                                 <time>November 7, 2017</time>
-                                <span class="glyphicon glyphicon-folder-open-alt"></span>
+                                <i class="fa fa-folder"></i>
                                 <a href="">Tutorials</a>,
                                 <a href="">Coding</a>
-                                <span class="glyphicon glyphicon-tags"></span>Tagged
+                                <i class="fa fa-tags"></i>Tagged
                                 <a href="">WordPress</a>,
                                 <a href="">premium</a>
                                 <a href="">another tag</a>,
                                 <a href="">yadda yadaa</a>
+
                                 <div class="post-comment-badge">
                                     <a href="">
-                                        <span class="glyphicon glyhicon-comments"></span> 168</a>
+                                        <i class="fa fa-comments"></i> 168</a>
                                 </div>
                             </div>
                         </header>
@@ -118,20 +117,21 @@
                     <article class="post">
                         <header>
                             <h3>
-                                <a href="port.html">Blog title here</a>
+                                <a href="post.html">Blog title here</a>
                             </h3>
-                            <div class="port-details">
+                            <div class="post-details">
                                 <i class="fa fa-user"></i> Brad Hussy
-                                <i class="fa fa-time"></i>
-                                <time> November 7, 2017</time>
-                                <i class="fa fa-folder-open-alt"></i>
-                                <a href=""> Tutorials</a>,
-                                <a href=""> Coding</a>
-                                <i class="fa fa-tags"></i> Tagged
-                                <a href=""> wordpress</a>,
-                                <a href=""> premium</a>
-                                <a href=""> another tag</a>,
-                                <a href=""> yadda yadaa</a>
+                                <i class="fa fa-clock-o"></i>
+                                <time>November 7, 2017</time>
+                                <i class="fa fa-folder"></i>
+                                <a href="">Tutorials</a>,
+                                <a href="">Coding</a>
+                                <i class="fa fa-tags"></i>Tagged
+                                <a href="">WordPress</a>,
+                                <a href="">premium</a>
+                                <a href="">another tag</a>,
+                                <a href="">yadda yadaa</a>
+
                                 <div class="post-comment-badge">
                                     <a href="">
                                         <i class="fa fa-comments"></i> 168</a>
@@ -141,17 +141,76 @@
                         <div class="post-image">
                             <img src="assets/img/hero-bg.jpg" alt="Hero image">
                         </div>
-                        <div class="post post-excerpt">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et aut ab sint tempore explicabo tempora quas ex magnam
-                                eveniet, voluptas excepturi vitae illo officiis incidunt delectus ipsam? Omnis, eligendi sequi...
+                        <div class="post-excerpt">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et aut ab sint tempore explicabo tempora quas
+                                ex magnam eveniet, voluptas excepturi vitae illo officiis incidunt delectus ipsam? Omnis, eligendi
+                                sequi...
                                 <a href="post.html">continue reading</a>
                             </p>
                         </div>
                     </article>
                 </main>
-        
+
+                <!-- SIDEBAR
+                ======================================== -->
+
+                <aside class="col-sm-4">
+                    <div class="widget">
+                        <h4>Join our Mailing List</h4>
+                        <p>Keep up-to-date with the latest news, and we'll <strong>send you somthing special as a thank you!</strong></p>
+                        <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">Click here to subscribe</button>
+                    </div>
+                    <div class="widget">
+                        <form action="" class="search-form">
+                            <label for="sidebar-search">Search</label>
+
+                            <input type="text" id="sidebar-search" placeholder="Search blog here">
+                        </form>
+                    </div>
+                    <div class="widget">
+                        <h4>About Bootstrap to WordPress</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, velit? Repellat animi labore, ab minima quibusdam error ipsa esse ut natus eaque ipsam, quisquam vel architecto praesentium nobis quis at?</p>
+                    </div>
+                    <div class="widget">
+                        <h4>Recent Posts</h4>
+                        <ul class="">
+                            <li><a href="">Blog post #1</a></li>
+                            <li><a href="">Blog post #2</a></li>
+                            <li><a href="">Blog post #3</a></li>
+                            <li><a href="">Blog post #4</a></li>
+                            <li><a href="">Blog post #5</a></li>
+                        </ul>
+                    </div>
+                    <div class="widget">
+                        <h4>Categories</h4>
+                        <ul class="">
+                            <li><a href="">Categories #1</a></li>
+                            <li><a href="">Categories #2</a></li>
+                            <li><a href="">Categories #3</a></li>
+                            <li><a href="">Categories #4</a></li>
+                            <li><a href="">Categories #5</a></li>
+                            <li><a href="">Categories #6</a></li>
+                        </ul>
+                    </div>
+                </aside>
             </div>
         </div>
+
+        <!-- SIGN UP SECTION
+            ========================================== -->
+        
+        <section id="signup" data-type="background" data-speed="4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <h2>Are you read to sent your coding skills to the
+                            <strong>next level</strong>
+                        </h2>
+                        <a href="#" class="btn btn-lg btn-block btn-success">Yes, sign me up!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- FOOTER
             ========================================== -->
@@ -228,7 +287,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="subscribe-email"></label>
+                                <label for="subscribe-email" class="sr-only"></label>
                                 <input type="text" class="form-control" placeholder="Your first name">
                             </div>
                             <input type="submit" class="btn btn-danger" value="Subscribe">
