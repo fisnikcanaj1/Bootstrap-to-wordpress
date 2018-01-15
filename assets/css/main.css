@@ -12,7 +12,7 @@ body {
 	margin-top: 50px;
 	font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
 	font-size: 16px;
-	background: url('../img/tile.jpg') top left repeat;
+	background: url('../img/title.jpg') top left repeat;
 }
 
 /* ==== GLOBAL ==== */
@@ -115,7 +115,7 @@ a.text-danger:hover {
 }
 
 .modal-content{
-	background: url('../img/tile.jpg') top left repeat;
+	background: url('../img/title.jpg') top left repeat;
 }
 
 .badge.social {
